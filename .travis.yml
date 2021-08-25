@@ -3,5 +3,6 @@ python:
   - "3.9"
 install:
   - pip install esphome
+  - platformio platform update
 script:
   - esphome compile pushButtonHttpRequest.yml
